@@ -57,3 +57,6 @@ untitled/*
 services/.idea/*
 __pycache__/
 #Don't ignore
+
+# Java - Maven targets
+javaKennitala/target/*
