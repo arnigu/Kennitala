@@ -1,13 +1,31 @@
 package info.arnigu.kennitala;
 
 /**
- * Hello world!
+ * Kennitala Class - Validates Kennitala
  *
  */
-public class App 
+public class Kennitala
 {
-    public static void main( String[] args )
+    final String kennitala;
+
+    public Kennitala(final String kennitala)
     {
-        System.out.println( "Hello World!" );
+        this.kennitala = kennitala;
+    }
+
+    public void validate()
+    {
+	throws new RuntimeException();
+    }
+
+    public boolean validateSafe()
+    {
+	try{
+		this.validate();
+		return true;
+	}catch(Exception ex)
+        {
+		return false;
+	}
     }
 }
